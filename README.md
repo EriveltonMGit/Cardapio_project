@@ -1,7 +1,7 @@
 # Site para Restaurante
 
 <div display="flex" >
-<img width="27" higth="27"   src="https://www.pexels.com/pt-br/foto/foto-de-close-up-de-hamburguer-1639562/" />
+<img width="27" higth="27"   src="https://drive.google.com/file/d/14L1NOzT-ZQY72AYGQ9TwlKUy0F2IvsCp/view?usp=sharing" />
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
