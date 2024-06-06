@@ -1,6 +1,11 @@
 # Site para Restaurante
-<img src="https://drive.google.com/file/d/1SuH71w5g3sDWcJJuVPR4Kyv5KlmWLMqS/view?usp=drive_link" alt="Texto Alternativo">
+<p float="left">
 
+ <img src="https://user-images.githubusercontent.com/105131652/186226747-206a5cb6-0390-445f-9ab7-aaa88827750e.jpg" width="200" />
+
+ <img src="https://user-images.githubusercontent.com/105131652/186226781-c57b7eca-b9b8-44fd-9439-05f1383bd079.jpg" width="200" /> 
+
+</p>
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
 
 ## Development server
