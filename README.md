@@ -1,5 +1,5 @@
 # Site para Restaurante
-<img src="https://drive.google.com/file/d/1SuH71w5g3sDWcJJuVPR4Kyv5KlmWLMqS/view?usp=sharing" alt="Texto Alternativo">
+<img src="https://drive.google.com/file/d/1SuH71w5g3sDWcJJuVPR4Kyv5KlmWLMqS/view?usp=drive_link" alt="Texto Alternativo">
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
 
