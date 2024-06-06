@@ -1,1 +1,90 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
+html, body { height: 100%; }
+body { 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--bkColor);
+    
+       
+    
+}
+html{
+    background-color: var(--bkColor); 
+}
+
+
+:root{
+    
+    --bkMenu: #ffff9e;
+   
+    --bkColor: #fffdf7;
+    --color-black: #212121;
+    --color-black-heavy: #000000;
+    --color-text: #4f4f4f;
+    --color-text-out: #90908e;
+    --color-primary: #e7b221;
+    --color-secondary: #e7b221ab;
+    --color-white: #ffffff;
+    --color-red: #e74c3c;
+    --color-green: #2ecc71;
+    --color-separate: #cccccc;
+}
+
+// fonts
+@font-face{
+    font-family: 'Gotham';
+    src: url('assets/fonts/Gotham/gotham-light.woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Gotham';
+    src: url('assets/fonts/Gotham/gotham-book.woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Gotham';
+    src: url('assets/fonts/Gotham/gotham-bold.woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Gotham';
+    src: url('assets/fonts/Gotham/gotham-black.woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Poppins';
+    src: url('assets/fonts/popins/Poppins-Medium.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+::-webkit-scrollbar {
+    width: 1vw;
+    background-color: var(--color-secondary);
+    
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--color-text);
+    height: 10vh;
+    border-radius: 7px;
+    cursor: pointer;
+}
+/* Handle on hover */
+// ::-webkit-scrollbar-thumb:hover {
+//     background: #212529;
+
+// }

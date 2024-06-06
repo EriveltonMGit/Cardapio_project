@@ -1,0 +1,136 @@
+<nav class="navbar navbar-expand-lg " id="header">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#header"><img src="assets/img/png/logo.png" alt=""></a>
+    <button id="button-menu" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" href="#reservas">Reservas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#servicos">Serviços</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link " href="#cardapio">
+            Cardápio
+          </a>
+
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#depoimentos">Depoimentos</a>
+        </li>
+        <div id="meuCarrinho">
+          <button type="button" class="btn" onclick="abrirCarrinho()">Meu Carrinho
+            <img src="assets/img/icon/cart.png" alt="">
+          </button>
+
+
+        </div>
+      </ul>
+
+
+    </div>
+  </div>
+
+  <div id="modalCarrinho" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="fecharCarrinho()">fechar</span>
+      <!-- Conteúdo do carrinho aqui -->
+      <p>Carrinho de compras</p>
+      <div class="linha"></div>
+
+      <div class="etapas">
+        <div class="etapa etapa1 active">1</div>
+        <div id="etapa2" class="etapa etapa2 ">2</div>
+
+
+
+
+
+
+
+
+        <div id="etapa3" class="etapa etapa3">3</div>
+      </div>
+      <p class="titulo-carinho">Seu carrinho:</p>
+
+      <div id="carrinho-produtos">
+
+
+
+
+      </div>
+
+      <div id="cep">
+        <form>
+          <div class="form-row">
+          </div>
+          <div class="form-group col-md-3">
+            <label for="inputCEP">CEP:</label>
+            <input type="number" class="form-control" id="inputCEP">
+          </div>
+          <button id="pesquisarCep" type="submit" class="btn btn-primary">Procurar</button>
+          <div class="form-group col-md-4">
+            <label for="inputCity">Cidade:</label>
+            <input type="text" class="form-control" id="inputCity" disabled>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-4">
+
+              <label for="inputAddress">Endereço:</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="Rua dos Robos" disabled>
+
+            </div>
+            <div class="form-group col-md-4">
+              <label for="">N°:</label>
+              <input type="number" class="form-control" id="numeroCasa" placeholder="00">
+
+            </div>
+            <div id="bk-Localizaçao">
+              <img src="assets/img/png/bk-localizacao.png" alt="">
+            </div>
+            
+          </div>
+
+
+        </form>
+
+
+
+      </div>
+
+
+      <div class="total">
+        <div class="linha-2" id="linha-2">
+
+        </div>
+        <div id="valorProdutosCarrinho">
+          <h1>Preço Total</h1>
+          <span>R$: 0.00 </span>
+       
+        </div>
+
+
+
+        <div id="proximo-carrinho">
+
+          <button onclick="proximaEtapa()">Próximo ►</button>
+          <button id="buttonVoltarCarrinho" onclick="voltar()">Voltar</button>
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+</nav>

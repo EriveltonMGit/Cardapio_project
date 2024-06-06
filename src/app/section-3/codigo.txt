@@ -1,0 +1,356 @@
+<section class="section-3" id="cardapio">
+    <div class="titulo">
+        <p>CARDÁPIO</p>
+        <h1>Conheça o nosso cardápio</h1>
+
+    </div>
+    <div class="menu-button" >
+        <button  onclick="cardHamburguer()"><img src="assets/img/icon/icon-menu-button/hamburguer.png" alt=""><li>Burger</li></button>
+        <img id="gif-hamburguer" src="assets/img/card-produtos/gif/burger-dance.gif" alt="">
+
+        <button onclick="cardPizza()"><img src="assets/img/icon/icon-menu-button/pizza.png" alt="">Pizzas</button>
+        <button onclick="cardChurrasco()"><img src="assets/img/icon/icon-menu-button/churrasco.png" alt="">Churrasco</button>
+        <button onclick="cardBebidas()"><img src="assets/img/icon/icon-menu-button/coquetel.png" alt="">Bebidas</button>
+        <button onclick="cardSobremesas()"><img src="assets/img/icon/icon-menu-button/sobremesas.png" alt="">Sobremesas</button>
+        
+    </div>
+
+    <div class="cards" id="cards">
+        <div class="card" id="texto-card">
+
+            <img class="imgProduto" src="assets/img/card-produtos/img-1.jpg" alt="">
+
+            <div class="content-card" id="card-content">
+                <h2>Gramercy Tavern</h2>
+                <span>R$ 99,00</span>
+
+            </div>
+
+            <div id="input-produtos">
+                <div class="inputValor">
+                    <button onclick="decrement('quantidade-1')">-</button>
+                    <div id="valor">
+                        <p id="quantidade-1">0</p>
+                    </div>
+                    <button href="" onclick="increment('quantidade-1','nomeProduto')">+</button>
+                </div>
+
+
+                <img id="sacola-icon" onclick="adicionarAoCarrinho('sacola-icon', '1-Hamburguer Gramercy Taver', 99.50)"
+                    src="assets/img/icon/sacola.png" alt="">
+            </div>
+
+        </div>
+
+        <!-- 2 -->
+
+        <div class="card" id="texto-card-2">
+
+            <img class="imgProduto" src="assets/img/card-produtos/img-2.jpg" alt="">
+
+            <div class="content-card" id="card-content">
+                <h2>Gramercy Tavern</h2>
+                <span>R$ 99,00</span>
+
+            </div>
+
+            <div id="input-produtos">
+                <div class="inputValor">
+                    <button onclick="decrement('quantidade-2')">-</button>
+                    <div id="valor">
+                        <p id="quantidade-2">0</p>
+                    </div>
+                    <button href="" onclick="increment('quantidade-2','nomeProduto')">+</button>
+                </div>
+
+                <!-- <img id="sacola-icon" onclick="adicionarAoCarrinho('sacola-icon', '1-Hamburguer Gramercy Taver', 99.50)" src="assets/img/icon/sacola.png" alt=""> -->
+                <img id="sacola-icon"
+                    onclick="adicionarAoCarrinho('sacola-icon', '2-Hamburguer Gramercy gurmet', 99.50)"
+                    src="assets/img/icon/sacola.png" alt="">
+            </div>
+
+        </div>
+        <!-- card 3  -->
+
+
+        <div class="card" id="texto-card-3">
+
+            <img class="imgProduto" src="assets/img/card-produtos/img-3.jpg" alt="">
+
+            <div class="content-card" id="card-content-3">
+                <h2>Gramercy Tavern</h2>
+                <span>R$ 49,00</span>
+
+            </div>
+
+            <div id="input-produtos">
+                <div class="inputValor">
+                    <button onclick="decrement('quantidade-3')">-</button>
+                    <div id="valor">
+                        <p id="quantidade-3">0</p>
+                    </div>
+                    <button href="" onclick="increment('quantidade-3')">+</button>
+                </div>
+                <img id="sacola-icon"
+                    onclick="adicionarAoCarrinho('sacola-icon-3', '3-Hamburguer Gramercy gurmet', 99.50)"
+                    src="assets/img/icon/sacola.png" alt="">
+            </div>
+
+        </div>
+        <!-- 4 -->
+        <div class="card" id="texto-card-4">
+
+            <img class="imgProduto" src="assets/img/card-produtos/img-4.jpg" alt="">
+
+            <div class="content-card" id="card-content-2">
+                <h2>Gramercy Tavern</h2>
+                <span>R$ 55,00</span>
+
+            </div>
+
+            <div id="input-produtos">
+                <div class="inputValor">
+                    <button onclick="decrement('quantidade-4')">-</button>
+                    <div id="valor">
+                        <p id="quantidade-4">0</p>
+                    </div>
+                    <button href="" onclick="increment('quantidade-4')">+</button>
+                </div>
+                <img id="sacola-icon"
+                    onclick="adicionarAoCarrinho('sacola-icon-4', '4-Hamburguer Gramercy gurmet', 55.50)"
+                    src="assets/img/icon/sacola.png" alt="">
+            </div>
+
+        </div>
+        <!-- 5 -->
+
+
+        <div class="card" id="texto-card-5">
+
+            <img class="imgProduto" src="assets/img/card-produtos/img-5.jpg" alt="">
+
+            <div class="content-card" id="card-content-2">
+                <h2>Gramercy Tavern</h2>
+                <span>R$ 55,00</span>
+
+            </div>
+
+            <div id="input-produtos">
+                <div class="inputValor">
+                    <button onclick="decrement('quantidade-5')">-</button>
+                    <div id="valor">
+                        <p id="quantidade-5">0</p>
+                    </div>
+                    <button href="" onclick="increment('quantidade-5')">+</button>
+                </div>
+                <img id="sacola-icon"
+                    onclick="adicionarAoCarrinho('sacola-icon-5', '5-Hamburguer Gramercy gurmet', 99.50)"
+                    src="assets/img/icon/sacola.png" alt="">
+            </div>
+
+        </div>
+
+
+        <!-- 6 -->
+
+        <div class="card" id="texto-card-6">
+
+            <img class="imgProduto" src="assets/img/card-produtos/img-6.jpg" alt="">
+
+            <div class="content-card" id="card-content-2">
+                <h2>Gramercy Tavern</h2>
+                <span>R$ 55,00</span>
+
+            </div>
+
+            <div id="input-produtos">
+                <div class="inputValor">
+                    <button onclick="decrement('quantidade-6')">-</button>
+                    <div id="valor">
+                        <p id="quantidade-6">0</p>
+                    </div>
+                    <button href="" onclick="increment('quantidade-6')">+</button>
+                </div>
+                <img id="sacola-icon"
+                    onclick="adicionarAoCarrinho('sacola-icon-6', '6-Hamburguer Gramercy gurmet', 99.50)"
+                    src="assets/img/icon/sacola.png" alt="">
+            </div>
+
+        </div>
+        <!--  -->
+
+        <div class="card" id="texto-card-7">
+
+            <img class="imgProduto" src="assets/img/card-produtos/img-7.jpg" alt="">
+
+            <div class="content-card" id="card-content-2">
+                <h2>Gramercy Tavern</h2>
+                <span>R$ 55,00</span>
+
+            </div>
+
+            <div id="input-produtos">
+                <div class="inputValor">
+                    <button onclick="decrement('quantidade-7')">-</button>
+                    <div id="valor">
+                        <p id="quantidade-7">0</p>
+                    </div>
+                    <button href="" onclick="increment('quantidade-7')">+</button>
+                </div>
+                <img id="sacola-icon"
+                    onclick="adicionarAoCarrinho('sacola-icon-7', '7-Hamburguer Gramercy gurmet', 99.50)"
+                    src="assets/img/icon/sacola.png" alt="">
+            </div>
+
+        </div>
+
+
+        <!--  -->
+        <div class="card" id="texto-card-8">
+
+            <img class="imgProduto" src="assets/img/card-produtos/img-8.jpg" alt="">
+
+            <div class="content-card" id="card-content-8">
+                <h2>Gramercy Tavern</h2>
+                <span>R$ 55,00</span>
+
+            </div>
+
+            <div id="input-produtos">
+                <div class="inputValor">
+                    <button onclick="decrement('quantidade-8')">-</button>
+                    <div id="valor">
+                        <p id="quantidade-8">0</p>
+                    </div>
+                    <button href="" onclick="increment('quantidade-8')">+</button>
+                </div>
+                <img id="sacola-icon"
+                    onclick="adicionarAoCarrinho('sacola-icon-8', '8-Hamburguer Gramercy gurmet', 99.50)"
+                    src="assets/img/icon/sacola.png" alt="">
+            </div>
+
+        </div>
+
+
+        <!-- card escondido -->
+
+        <div class="cardEscondido" id="cardEscondido">
+            <!-- card 9 -->
+            <div class="card" id="texto-card-9">
+
+                <img class="imgProduto" src="assets/img/card-produtos/img-9.jpg" alt="">
+
+                <div class="content-card" id="card-content-9">
+                    <h2>Gramercy Tavern</h2>
+                    <span>R$ 55,00</span>
+
+                </div>
+
+                <div id="input-produtos">
+                    <div class="inputValor">
+                        <button onclick="decrement('quantidade-9')">-</button>
+                        <div id="valor">
+                            <p id="quantidade-9">0</p>
+                        </div>
+                        <button href="" onclick="increment('quantidade-9')">+</button>
+                    </div>
+                    <img id="sacola-icon"
+                        onclick="adicionarAoCarrinho('sacola-icon-9', '9-Hamburguer Gramercy gurmet', 99.50)"
+                        src="assets/img/icon/sacola.png" alt="">
+                </div>
+
+            </div>
+            <!-- card 10 -->
+            <div class="card" id="texto-card-10">
+
+                <img class="imgProduto" src="assets/img/card-produtos/img-10.jpg" alt="">
+
+                <div class="content-card" id="card-content-10">
+                    <h2>Gramercy Tavern</h2>
+                    <span>R$ 55,00</span>
+
+                </div>
+
+                <div id="input-produtos">
+                    <div class="inputValor">
+                        <button onclick="decrement('quantidade-10')">-</button>
+                        <div id="valor">
+                            <p id="quantidade-10">0</p>
+                        </div>
+                        <button href="" onclick="increment('quantidade-10')">+</button>
+                    </div>
+                    <img id="sacola-icon"
+                        onclick="adicionarAoCarrinho('sacola-icon-10', '10-Hamburguer Gramercy gurmet', 99.50)"
+                        src="assets/img/icon/sacola.png" alt="">
+                </div>
+
+            </div>
+            <!-- card 11 -->
+            <div class="card" id="texto-card-11">
+
+                <img class="imgProduto" src="assets/img/card-produtos/img-11.jpg" alt="">
+
+                <div class="content-card" id="card-content-11">
+                    <h2>Gramercy Tavern</h2>
+                    <span>R$ 55,00</span>
+
+                </div>
+
+                <div id="input-produtos">
+                    <div class="inputValor">
+                        <button onclick="decrement('quantidade-11')">-</button>
+                        <div id="valor">
+                            <p id="quantidade-11">0</p>
+                        </div>
+                        <button href="" onclick="increment('quantidade-11')">+</button>
+                    </div>
+                    <img id="sacola-icon"
+                        onclick="adicionarAoCarrinho('sacola-icon-11', '11-Hamburguer Gramercy gurmet', 99.50)"
+                        src="assets/img/icon/sacola.png" alt="">
+                </div>
+            </div>
+            <!-- card 12 -->
+            <div class="card" id="texto-card-12">
+                <img class="imgProduto" src="assets/img/card-produtos/img-12.jpg" alt="">
+                <div class="content-card" id="card-content-12">
+                    <h2>Gramercy Tavern</h2>
+                    <span>R$ 55,00</span>
+                </div>
+                <div id="input-produtos">
+                    <div class="inputValor">
+                        <button onclick="decrement('quantidade-12')">-</button>
+                        <div id="valor">
+                            <p id="quantidade-12">0</p>
+                        </div>
+                        <button href="" onclick="increment('quantidade-12')">+</button>
+                    </div>
+                    <img id="sacola-icon"
+                        onclick="adicionarAoCarrinho('sacola-icon-12', '12-Hamburguer Gramercy gurmet', 99.50)"
+                        src="assets/img/icon/sacola.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+</div>
+    
+
+</div>
+
+
+
+    <button id="verMais" onclick="abrirCard()">Ver Mais</button>
+
+
+    <div id="buttonFlutuanteCarrinho" onclick="abrirCarrinho()">
+        <p id="quantidadeProdutos">0</p>
+        <img src="assets/img/icon/sacola-carrinho.png" alt="">
+    </div>
+
+    <button id="mensagem">
+        <p>Item adicionado ao carrinho</p>
+    </button>
+
+</section>

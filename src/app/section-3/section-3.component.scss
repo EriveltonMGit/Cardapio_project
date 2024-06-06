@@ -1,0 +1,560 @@
+.section-3 {
+    // border: 1px solid red;
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20%;
+}
+
+.menu-button {
+  
+    width: 90%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 2vw;
+    z-index: 1;
+
+}
+
+.menu-button button {
+    width: 12vw;
+    border-radius: 15px;
+    border: none;
+    transition: 0.5s;
+    padding: 0.3rem;
+    box-shadow: -8px 10px 15px rgba(0, 0, 0, 0.233);
+    font-size: 1.2vw;
+    font-family: 'Poppins';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.menu-button button:hover {
+    background-color: #e7b221;
+}
+
+.menu-button button:nth-child(1) {
+    background-color: var(--color-primary);
+}
+
+// titulo
+.titulo {
+    margin-top: 20vh;
+    z-index: 1;
+}
+
+.titulo p {
+    color: var(--color-primary);
+    text-align: center;
+    color: var(--color-primary);
+    font-weight: bolder;
+    font-size: 1.2vw;
+    font-family: 'Poppins';
+}
+
+.titulo h1 {
+    color: var(--color-black);
+    font-size: 3vw;
+    font-family: 'Poppins';
+    font-weight: bolder;
+    margin-bottom: 10vh;
+
+}
+
+// card HAMBURGUER
+.cards {
+    
+    width: 90%;
+    flex-wrap: wrap;
+    gap: 5vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10vh;
+    cursor: pointer;
+    animation: vibrate 1s ease;
+}
+
+.card {
+
+    width: 20vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    transition: 0.5s;
+
+
+}
+.card:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transform: scale(1.02);
+}
+
+
+
+
+.card .imgProduto {
+    width: 80%;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    margin-top: 3vh;
+}
+
+.card h2 {
+    color: var(--color-black);
+    font-size: 1.6vw;
+    font-weight: bolder;
+}
+
+.card span {
+    color: var(--color-primary);
+    font-size: 1.6vw;
+    font-weight: bolder;
+
+}
+
+.card:hover {
+    background-color: #e7b221;
+
+}
+.card:hover .content-card{
+    display: none;
+}
+
+.content-card {
+    display: flex;
+    height: 20vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+
+
+
+
+// .input-produtos
+
+#input-produtos {
+
+    position: absolute;
+    bottom: 0;
+    height: 20vh;
+    width: 100%;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: none;
+}
+.card:hover #input-produtos {
+  
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#input-produtos div {
+    width: 40%;
+    height: 6vh;
+    
+    border: 2px solid black;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.inputValor {
+    border-radius: 10px;
+}
+
+// #valor
+#valor {
+    display: flex;
+    width: 4vw;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+#valor p {
+    width: 100%;
+    height: 5vh;
+    margin-bottom: 0;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-weight: bolder;
+    font-size: 1.2vw;
+
+}
+
+#input-produtos div h3 {
+    color: black;
+    width: 30%;
+    height: 6vh;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 1.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+
+
+}
+
+#input-produtos .inputValor button {
+    background-color: inherit;
+    border: none;
+    width: 3vw;
+    height: 6vh;
+    
+}
+// sacola-icon
+#sacola-icon{
+    width: 2.5vw;
+    padding: 0.3rem;
+    background-color: #000;
+    border-radius: 20%;
+    position: absolute;
+    right: 0;
+    margin-right: 2vw;
+    display: none;
+    z-index: 1;
+}
+.card:hover #sacola-icon{
+    display: block;
+}
+
+
+
+
+
+
+// buttonFlutuanteCarrinho
+#buttonFlutuanteCarrinho{
+   
+    background-color: var(--color-primary);
+    position: fixed;
+    right: 0;
+    margin-right: 3vw;
+    border-radius: 50%;
+    width: 5vw;
+    height: 10vh;
+    bottom: 0;
+    margin-bottom: 10vh;
+    display: flex;
+   box-shadow: 10px 10px 1rem rgba(0, 0, 0, 0.562);
+    align-items: center;
+    justify-content: center;
+    display: none;
+    cursor: pointer;
+
+}
+#buttonFlutuanteCarrinho img{
+    width: 3vw;
+}
+// quantidadeProdutos
+#quantidadeProdutos{
+    position: absolute;
+    right: 0;
+    background-color: var(--color-secondary);
+    border-radius: 50%;
+    width: 1.5vw;
+    top: 0;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 1vw;
+    font-family: 'Poppins';
+
+}
+
+// messagem
+
+#mensagem{
+    width: 20vw;
+    border-radius: 10px;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-right: 4vw;
+    margin-top: 25vh;
+    animation-name: slide-from-top;
+    animation-duration: 1s;
+    z-index: 4;
+    background-color: var( --color-green);
+    z-index: 1;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    display: none;
+}
+#mensagem p{
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+
+
+@keyframes  slide-from-top {
+    to{
+    transform: translateY(0%);
+    opacity: 1;
+    }
+    from{
+  transform: translateY(-100%);
+  opacity: 0;
+    }
+}
+
+
+// verMais
+#verMais{
+    border: none;
+    background-color: var(--color-white);
+    color: var(--color-black)!important;
+    border-radius: 20px;
+    padding: 15px 25px;
+    font-size: 20px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+
+
+
+// cardEscondido
+.cardEscondido{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    // flex-wrap: wrap;
+    display: none;
+    
+}
+
+
+.item-carrinho {
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 5px;
+    
+  }
+  
+// PIZZAS CARDS
+
+.cards-pizza{
+   
+   width: 90%;
+   flex-wrap: wrap;
+   gap: 5vh;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin-top: 10vh;
+   cursor: pointer;
+   display: none;
+   animation: vibrate 1s ease;
+}
+
+
+#cards-pizza .imgProduto {
+    width: 80%;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    margin-top: 3vh;
+ 
+    
+}
+
+// CHURRASCO CARDS
+
+.card-churrasco{
+  
+   width: 90%;
+   flex-wrap: wrap;
+   gap: 5vh;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin-top: 10vh;
+   cursor: pointer;
+   display: none;
+   animation: vibrate 1s ease;
+}
+
+
+#card-churrasco .imgProduto {
+    width: 80%;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    margin-top: 3vh;
+   
+    
+}
+// BEBIDAS CARDS
+.card-bebidas{
+  
+   width: 90%;
+   flex-wrap: wrap;
+   gap: 5vh;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin-top: 10vh;
+   cursor: pointer;
+   display: none;
+   animation: vibrate 1s ease;
+}
+
+
+#card-bebidas .imgProduto {
+    width: 80%;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    margin-top: 3vh;
+   
+    
+}
+
+
+// SOBREMESAS CARDS
+.card-sobremesas{
+    
+   width: 90%;
+   flex-wrap: wrap;
+   gap: 5vh;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin-top: 10vh;
+   cursor: pointer;
+   display: none;
+   animation: vibrate 1s ease;
+   
+}
+
+
+#card-sobremesas .imgProduto {
+    width: 80%;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    margin-top: 3vh;
+    
+    
+}
+
+
+// fazer botão vibrar
+
+@keyframes vibrate {
+    0% { transform: translateX(-2px); 
+    transform: translateX(-20%);
+    opacity: 0%;
+    
+    
+    }
+    25% { transform: translateX(2px); }
+    50% { transform: translateX(-2px); }
+    75% { transform: translateX(2px); }
+    100% { transform: translateX(0); 
+        opacity: 100%;}
+}
+
+
+  .menu-button    li{
+    list-style: none;
+    z-index: 1;
+    color: #000;
+  }
+
+
+  @keyframes vibrate-button {
+    0% { transform: translate(0); }
+    20% { transform: translate(-5px, 5px); }
+    40% { transform: translate(10px, -3px); }
+    60% { transform: translate(-1px, 6px); }
+    80% { transform: translate(2px, -2px); }
+    100% { transform: translate(0); }
+}
+
+
+.menu-button button {
+    transition: all 0.5s ease;
+}
+
+.menu-button button:active {
+    animation: vibrate-button 1s linear;
+}
+
+
+// gif-hamburguer
+#gif-hamburguer{
+    width: 10vw;
+    position: absolute;
+    z-index: -1;
+    
+    margin-bottom: 10vh;
+    left: 3%;
+  
+    
+}
+
+
+
+
+
