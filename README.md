@@ -1,11 +1,10 @@
 # Site para Restaurante
-<p float="left">
+<picture>
+ <source media="(prefers-color-scheme: dark)" srcset="YOUR-DARKMODE-IMAGE">
+ <source media="(prefers-color-scheme: light)" srcset="YOUR-LIGHTMODE-IMAGE">
+ <img alt="YOUR-ALT-TEXT" src="YOUR-DEFAULT-IMAGE">
+</picture>
 
- <img src="https://user-images.githubusercontent.com/105131652/186226747-206a5cb6-0390-445f-9ab7-aaa88827750e.jpg" width="200" />
-
- <img src="https://user-images.githubusercontent.com/105131652/186226781-c57b7eca-b9b8-44fd-9439-05f1383bd079.jpg" width="200" /> 
-
-</p>
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
 
 ## Development server
