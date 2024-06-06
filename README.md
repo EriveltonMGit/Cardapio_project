@@ -1,8 +1,8 @@
 # Site para Restaurante
 
 <div display="flex" >
-<img width="27" higth="27"   src="https://drive.google.com/file/d/14L1NOzT-ZQY72AYGQ9TwlKUy0F2IvsCp/view?usp=sharing" />
-
+![Texto Alternativo](https://drive.google.com/file/d/1SuH71w5g3sDWcJJuVPR4Kyv5KlmWLMqS/view?usp=sharing)
+</div>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
 
