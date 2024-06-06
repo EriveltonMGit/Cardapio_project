@@ -1,8 +1,5 @@
 # Site para Restaurante
-
-<div display="flex" >
-![Texto Alternativo](https://drive.google.com/file/d/1SuH71w5g3sDWcJJuVPR4Kyv5KlmWLMqS/view?usp=sharing)
-</div>
+![Logo da Minha Empresa](https://exemplo.com/logo.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
 
