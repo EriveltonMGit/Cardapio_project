@@ -1,6 +1,7 @@
 # Site para Restaurante
+
 <div display="flex" >
-<img width="350" higth="500"   src="https://drive.google.com/file/d/1SuH71w5g3sDWcJJuVPR4Kyv5KlmWLMqS/view?usp=sharing" />          
+<img width="350" higth="300" src="https://drive.google.com/file/d/1SuH71w5g3sDWcJJuVPR4Kyv5KlmWLMqS/view?usp=sharing" />          
 </div>
 
 
