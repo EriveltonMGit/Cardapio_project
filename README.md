@@ -1,7 +1,7 @@
 # Site para Restaurante
 ![Descrição da Imagem](https://github.com/EriveltonMGit/Cardapio_project/raw/main/src/assets/img/img-apresentaçao.png)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
+Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
 
 
 &nbsp;<a href="https://ifoome.netlify.app/">
