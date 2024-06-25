@@ -1,5 +1,5 @@
 # Site para Restaurante
-**Atenção!** site em construção.
+**Atenção!** site em construção, sem responsividade.
 ![Descrição da Imagem](https://github.com/EriveltonMGit/Cardapio_project/raw/main/src/assets/img/img-apresentaçao.png)
 
 Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
